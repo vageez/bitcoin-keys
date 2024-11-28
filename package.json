@@ -1,0 +1,26 @@
+{
+    "name": "bitcoin-keys",
+    "version": "1.0.0",
+    "main": "build/index.mjs",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "watch": "vite build --watch",
+        "npm:publish": "npm publish --access public"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-react": "^4.3.4",
+        "vite": "latest",
+        "vite-plugin-wasm": "^3.3.0"
+    },
+    "author": "Angelo",
+    "license": "ISC",
+    "dependencies": {
+        "bip32": "^5.0.0-rc.0",
+        "bitcoinjs-lib": "^7.0.0-rc.0",
+        "qrcode.react": "^4.1.0",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "tiny-secp256k1": "^2.2.3"
+    }
+}
